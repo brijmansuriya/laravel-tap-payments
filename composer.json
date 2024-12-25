@@ -9,7 +9,7 @@
       "homepage": "https://www.web-beast.com/"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "require": {
     "php": "^8.1",
@@ -21,7 +21,8 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/brijmansuriya/laravel-tap-payments.git"
+      "url": "https://github.com/brijmansuriya/laravel-tap-payments.git",
+      "branch": "main"
     }
   ],
   "autoload": {
