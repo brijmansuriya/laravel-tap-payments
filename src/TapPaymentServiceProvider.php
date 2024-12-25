@@ -1,6 +1,6 @@
 <?php
 
-namespace VMdevelopment\TapPayment;
+namespace BMansuriya\TapPayment;
 
 use Illuminate\Support\ServiceProvider;
 

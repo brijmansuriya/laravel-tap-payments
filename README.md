@@ -4,16 +4,16 @@ Laravel package for https://www.tap.company
 
 ## Installation
 
-Add `vmdevelopment/laravel-tap-payments` to your `composer.json`.
+Add `brijmansuriya/laravel-tap-payments` to your `composer.json`.
 ```
-"vmdevelopment/laravel-tap-payments": "dev-master"
+"brijmansuriya/laravel-tap-payments": "dev-master"
 ```
 
 Run `composer update` to pull down the latest version of package.
 
 OR simply run
 ```
-composer require "vmdevelopment/laravel-tap-payments"
+composer require "brijmansuriya/laravel-tap-payments"
 ```
 
 For laravel >=5.5 that's all. This package supports Laravel new Package Discovery.
@@ -21,21 +21,21 @@ For laravel >=5.5 that's all. This package supports Laravel new Package Discover
 Otherwise you need to open up `/config/app.php` and add the service provider to your `providers` array.
 ```php
 'providers' => [
-	\VMdevelopment\TapPayment\TapPaymentServiceProvider::class
+	\BMansuriya\TapPayment\TapPaymentServiceProvider::class
 ]
 ```
 
 Now add the alias.
 ```php
 'aliases' => [
-	'TapPayment' => \VMdevelopment\TapPayment\Facade\TapPayment::class
+	'TapPayment' => \BMansuriya\TapPayment\Facade\TapPayment::class
 ]
 ```
 
 ## Configuration
 To publish config run
 ```
-php artisan vendor:publish --provider="VMdevelopment\TapPayment\TapPaymentServiceProvider"
+php artisan vendor:publish --provider="BMansuriya\TapPayment\TapPaymentServiceProvider"
 ```
 and modify the config file with your own information. File is located in `/config/tap-payment.php`
 
@@ -53,7 +53,7 @@ TAP_PAYMENT_API_KEY=your_api_key
 
 ### Creating Charge(make payment)
 ```php
-use VMdevelopment\TapPayment\Facade\TapPayment;
+use BMansuriya\TapPayment\Facade\TapPayment;
 
 public function pay()
 {

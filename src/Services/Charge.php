@@ -1,10 +1,10 @@
 <?php
 
-namespace VMdevelopment\TapPayment\Services;
+namespace BMansuriya\TapPayment\Services;
 
 use Illuminate\Support\Facades\Validator;
-use VMdevelopment\TapPayment\Abstracts\AbstractService;
-use VMdevelopment\TapPayment\Resources\Invoice;
+use BMansuriya\TapPayment\Abstracts\AbstractService;
+use BMansuriya\TapPayment\Resources\Invoice;
 
 class Charge extends AbstractService
 {

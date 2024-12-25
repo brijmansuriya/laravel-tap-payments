@@ -1,6 +1,6 @@
 <?php
 
-namespace VMdevelopment\TapPayment\Resources;
+namespace BMansuriya\TapPayment\Resources;
 
 class Invoice
 {

@@ -1,12 +1,12 @@
 {
-  "name": "vmdevelopment/laravel-tap-payments",
+  "name": "brijmansuriya/laravel-tap-payments",
   "description": "Tap Payment REST API package for Laravel",
   "license": "MIT",
   "authors": [
     {
-      "name": "Vanand Mkrtchyan",
-      "email": "vanand@vm-development.com",
-      "homepage": "http://www.vm-development.com/"
+      "name": "Mansuriya brij",
+      "email": "mansuriyabri@gmail.com",
+      "homepage": "https://www.web-beast.com/"
     }
   ],
   "minimum-stability": "dev",
@@ -17,20 +17,26 @@
     "illuminate/support": "^8.0|^9.0",
     "guzzlehttp/guzzle": ">=6.0"
   },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/brijmansuriya/laravel-tap-payments.git"
+    }
+  ],
   "autoload": {
     "psr-4": {
-      "VMdevelopment\\TapPayment\\": "src/"
+      "BMansuriya\\TapPayment\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "VMdevelopment\\TapPayment\\Tests\\": "tests/"
+      "BMansuriya\\TapPayment\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "VMdevelopment\\TapPayment\\TapPaymentServiceProvider"
+        "BMansuriya\\TapPayment\\TapPaymentServiceProvider"
       ]
     }
   }
