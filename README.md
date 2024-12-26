@@ -6,7 +6,7 @@ Laravel package for https://www.tap.company
 
 Add `brijmansuriya/laravel-tap-payments` to your `composer.json`.
 ```
-"brijmansuriya/laravel-tap-payments": "dev-master"
+"brijmansuriya/laravel-tap-payments"
 ```
 
 Run `composer update` to pull down the latest version of package.
