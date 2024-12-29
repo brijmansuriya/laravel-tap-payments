@@ -15,7 +15,7 @@
     "php": "^8.1",
     "ext-curl": "*",
     "ext-json": "*",
-    "illuminate/support": "*",
+    "laravel/framework": "^10.0|^11.0",
     "guzzlehttp/guzzle": ">=6.0"
   },
   "version": "1.4.0",
